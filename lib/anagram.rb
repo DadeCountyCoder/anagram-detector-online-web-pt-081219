@@ -10,7 +10,6 @@ class Anagram
     array.select {|x| x.split("").sort == @name.split("").sort}
   end   
 
-  end
   
   
   
